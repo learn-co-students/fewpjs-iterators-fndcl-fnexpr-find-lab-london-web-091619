@@ -1,5 +1,4 @@
-const testVar = {}
-
-function testFunc() {
-  return "hi"
+function superbowlWin(objArray) {
+  const win = objArray.find(obj => obj.result === "W")
+  return win && win.year
 }
